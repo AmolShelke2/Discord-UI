@@ -1,1 +1,1 @@
-// logic for menu
+// logic for menu on small device
