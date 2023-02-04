@@ -38,4 +38,30 @@
 
 /* Global css styling */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: var(--general-font-size);
+  font-family: var(--main-font-family-light);
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
 /* Global css styles ends */
