@@ -1,13 +1,24 @@
-/* global styles */
+/* Fonts files adding */
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+@font-face {
+  font-family: "Whitney Light";
+  src: url("/assets/fonts/whitneylight.woff") format("woff");
 }
 
-html {
-  scroll-behavior: smooth;
+@font-face {
+  font-family: "Whitney Medium";
+  src: url("/assets/fonts/whitneymedium.woff") format("woff");
 }
 
-/* header */
+@font-face {
+  font-family: "Whitney Bold";
+  src: url("/assets/fonts/whitneybold.woff") format("woff");
+}
+
+/* fonts files ends */
+
+/* Root styling */
+
+/* end of root styling */
+
+/* global css styling */
