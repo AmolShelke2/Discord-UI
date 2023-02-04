@@ -19,6 +19,23 @@
 
 /* Root styling */
 
+:root {
+  --light-clr: #fff;
+  --dark-clr: #23272a;
+  --brand-clr: #5865f2;
+  --off-white-clr: #f6f6f6;
+  --general-font-size: 2rem;
+  --primary-title-font-size: 4.8rem;
+  --secondary-title-font-size: 4rem;
+  --main-font-family-light: "Whitney Light", sans-serif;
+  --main-font-family-medium: "Whitney Medium", sans-serif;
+  --main-font-family-bold: "Whitney Bold", sans-serif;
+  --num-of-grid-columns: 4;
+  --section-spacing: 5.6rem 2.4rem;
+  --container-width: 126rem;
+}
 /* end of root styling */
 
-/* global css styling */
+/* Global css styling */
+
+/* Global css styles ends */
