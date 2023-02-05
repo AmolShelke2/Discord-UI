@@ -132,6 +132,10 @@ img {
   color: var(--dark-clr);
 }
 
+.btn-light i {
+  margin-right: 0.5rem;
+}
+
 .btn-light:hover {
   color: var(--brand-clr);
 }
