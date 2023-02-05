@@ -65,3 +65,17 @@ img {
 }
 
 /* Global css styles ends */
+
+/* hero section starts */
+.hero {
+  background: url("/assets/images/hero-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-header {
+  height: 8rem;
+  padding: 0 2.4rem;
+}
+/* hero section ends */
