@@ -69,7 +69,7 @@ img {
 /* hero section starts */
 .hero {
   background: url("/assets/images/hero-bg.jpg");
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -78,4 +78,126 @@ img {
   height: 8rem;
   padding: 0 2.4rem;
 }
-/* hero section ends */
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.main-nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+}
+
+.logo {
+  width: 12.4rem;
+}
+
+.logo svg {
+  color: #fff;
+}
+
+.nav-list {
+  display: none;
+  font-family: var(--main-font-family-medium);
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.nav-item a {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-item-right {
+  display: flex;
+  align-items: center;
+}
+
+.btn:hover {
+  box-shadow: 0 0.8rem 1.5rem rgba(0, 0, 0, 0.7);
+}
+
+.btn-small {
+  font-size: 1.4rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: 4rem;
+}
+
+.btn-light {
+  background-color: var(--light-clr);
+  color: var(--dark-clr);
+}
+
+.btn-light:hover {
+  color: var(--brand-clr);
+}
+
+.btn-login {
+  margin-right: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.mobile-toggle {
+  display: flex;
+  font-size: 3.6rem;
+  color: var(--light-clr);
+  cursor: pointer;
+}
+
+.btn-close {
+  display: none !important;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(var(--num-of-grid-columns, 1fr));
+  gap: 0.2rem;
+  padding: var(--section-spacing);
+}
+
+.hero-content-wrap {
+  grid-column: span var(--num-of-grid-columns);
+  color: var(--light-clr);
+}
+
+.title {
+  font-family: var(--main-font-family-bold);
+}
+
+.primary-title {
+  font-size: var(--primary-title-font-size);
+  line-height: 120%;
+}
+
+.hero-description {
+  line-height: 3.2rem;
+  margin-top: 2.5rem;
+}
+
+.hero-btn-group .btn-light {
+  margin: 2.5rem 2.5rem 0 0;
+  display: inline-flex;
+}
+
+.hero-btn-group .btn-light {
+  align-items: center;
+  margin-right: 0.8rem;
+}
+
+.btn-large {
+  padding: 1.6rem 3.2rem;
+  border-radius: 2.8rem;
+}
+
+.btn-dark {
+  background-color: var(--dark-clr);
+  color: var(--light-clr);
+  margin-top: 2.5rem;
+  transition: background-color 0.5s;
+}
+
+/* hero section ends */ ;
