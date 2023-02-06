@@ -208,4 +208,27 @@ img {
 
 /* Collaboration section styles */
 
+.grid-image {
+  margin-top: 2.5rem;
+  grid-gap: span 4;
+}
+
+.text {
+  font-family: var(--main-font-family-bold);
+}
+
+.text-group {
+  margin-top: 2rem;
+  grid-gap: span 4;
+}
+
+.secondary-title {
+  font-size: var(--secondary-title-font-size);
+}
+
+.text-group p {
+  margin-top: 2.2rem;
+  line-height: 3.2rem;
+}
+
 /* Collabaration section styles ends */
