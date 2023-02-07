@@ -240,14 +240,28 @@ img {
 
 /* End of Voice Channel section */
 
-/* Moderation tool section */
-
-.moderation-tool {
-  background-color: var(--light-clr);
+/* Video call section */
+.video-call {
+  background-color: var(--off-white-clr);
 }
 
-/* End of Moderation tool section */
+.video-call .row {
+  padding-bottom: 8rem;
+}
 
-/* Video call section */
+.video-call .text-group {
+  grid-column: span var(--num-of-grid-columns);
+  margin-top: 0;
+}
+
+.video-call .text-group p {
+  margin-top: 2.4rem;
+}
+
+.video-call .grid-image {
+  width: 100%;
+  grid-column: span var(--num-of-grid-columns);
+  margin-top: 2.4rem;
+}
 
 /* End of Video call section styles */
