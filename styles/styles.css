@@ -265,3 +265,14 @@ img {
 }
 
 /* End of Video call section styles */
+
+/* Download section */
+.download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* End of Download section */
