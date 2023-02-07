@@ -239,3 +239,11 @@ img {
 }
 
 /* End of Voice Channel section */
+
+/* Moderation tool section */
+
+.moderation-tool {
+  background-color: var(--light-clr);
+}
+
+/* End of Moderation tool section */
