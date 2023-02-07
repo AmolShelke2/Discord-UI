@@ -268,11 +268,40 @@ img {
 
 /* Download section */
 .download {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: var(--off-white-clr);
+}
+
+.download .remove-grid {
+  display: block;
+  padding-top: 0;
   text-align: center;
+}
+
+.sparkles {
+  display: inline-block;
+}
+
+.download h2 {
+  font-size: 3.2rem;
+  font-family: var(--main-font-family-medium);
+}
+
+.btn-brand {
+  background-color: var(--brand-clr);
+  color: var(--light-clr);
+  transition: background-color 0.5s;
+}
+
+.btn-brand:hover {
+  background: #7983f5;
+}
+
+.btn-brand i {
+  margin-right: 0.8rem;
+}
+
+.download .btn-brand {
+  margin-top: 3rem;
 }
 
 /* End of Download section */
