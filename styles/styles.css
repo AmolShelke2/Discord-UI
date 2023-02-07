@@ -232,3 +232,10 @@ img {
 }
 
 /* Collabaration section styles ends */
+
+/* The Voice Channel section  */
+.voice-channel {
+  background-color: var(--off-white-clr);
+}
+
+/* End of Voice Channel section */
