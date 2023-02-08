@@ -23,12 +23,12 @@ A Discord website UI clone created with HTML CSS and JavaScript. It is fully res
 
 <hr/>
 
-## Preview
-![discord com_](https://user-images.githubusercontent.com/95171638/217620487-8f9179f8-a302-4838-b7d1-c4ed28af0d10.png)
+## Live
 
 <hr/>
 
-## Live
+## Preview
+![discord com_](https://user-images.githubusercontent.com/95171638/217620487-8f9179f8-a302-4838-b7d1-c4ed28af0d10.png)
 
 <hr/>
 
