@@ -307,5 +307,14 @@ img {
 /* End of Download section */
 
 /* Footer section */
+.main-footer {
+  background-color: var(--dark-clr);
+  color: var(--light-clr);
+  padding: 8rem 2.4rem 6.4rem;
+}
+
+.main-footer .row {
+  padding: 0;
+}
 
 /* End of footer section */
