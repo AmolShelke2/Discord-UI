@@ -404,4 +404,58 @@ img {
 
 /* Media queries for Desktop */
 
+@media (min-width: 768px) {
+  :root {
+    --primary-title-font-size: 5.6rem;
+    --secondary-title-font-size: 4.8rem;
+    --num-of-grid-columns: 8;
+    --section-spacing: 8rem 4rem;
+  }
+
+  .hero {
+    min-height: 62.6rem;
+  }
+
+  .hero-content-wrap {
+    grid-column: span 5;
+  }
+
+  .hero-description {
+    margin: 4rem 0 0.8rem;
+  }
+
+  .grid-image {
+    margin: 0 auto;
+  }
+
+  .text-group {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .order-1 {
+    order: 1;
+  }
+
+  .order-2 {
+    order: 2;
+  }
+
+  .video-call {
+    text-align: center;
+  }
+
+  .info-box {
+    grid-column: span 3;
+    grid-row: span 2;
+  }
+
+  .spacer {
+    display: block;
+    grid: span 2;
+  }
+}
+
 /* End of Media queries  */
