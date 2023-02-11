@@ -1,23 +1,23 @@
-/* Fonts files adding */
+/*---fonts files addings--*/
 
 @font-face {
   font-family: "Whitney Light";
-  src: url("/assets/fonts/whitneylight.woff") format("woff");
+  src: url("./assets/fonts/whitneylight.woff") format("woff");
 }
 
 @font-face {
   font-family: "Whitney Medium";
-  src: url("/assets/fonts/whitneymedium.woff") format("woff");
+  src: url("./assets/fonts/whitneymedium.woff") format("woff");
 }
 
 @font-face {
   font-family: "Whitney Bold";
-  src: url("/assets/fonts/whitneybold.woff") format("woff");
+  src: url("./assets/fonts/whitneybold.woff") format("woff");
 }
 
-/* fonts files ends */
+/*---fonts files addings done--*/
 
-/* Root styling */
+/*---writing root properties used in this page---*/
 
 :root {
   --light-clr: #fff;
@@ -34,9 +34,10 @@
   --section-spacing: 5.6rem 2.4rem;
   --container-width: 126rem;
 }
-/* end of root styling */
 
-/* Global css styling */
+/*---writing root properties used in this page done---*/
+
+/*---global css used----*/
 
 * {
   margin: 0;
@@ -45,7 +46,6 @@
 }
 
 html {
-  scroll-behavior: smooth;
   font-size: 62.5%;
 }
 
@@ -64,9 +64,10 @@ img {
   display: block;
 }
 
-/* Global css styles ends */
+/**----global css done---**/
 
-/* hero section starts */
+/***-----hero section start-------***/
+
 .hero {
   background: url("/assets/images/hero-bg.jpg");
   background-position: center;
@@ -86,10 +87,10 @@ img {
 
 .main-nav {
   height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -118,7 +119,7 @@ img {
 }
 
 .btn:hover {
-  box-shadow: 0 0.8rem 1.5rem rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0.8rem 1.5rem rgba(0, 0, 0, 0.2);
 }
 
 .btn-small {
@@ -132,20 +133,16 @@ img {
   color: var(--dark-clr);
 }
 
-.btn-light i {
-  margin-right: 0.5rem;
-}
-
 .btn-light:hover {
   color: var(--brand-clr);
 }
 
 .btn-login {
-  margin-right: 1.5rem;
+  margin-right: 1.6rem;
   line-height: 1.8rem;
 }
 
-.mobile-toggle {
+.mobile-toogle {
   display: flex;
   font-size: 3.6rem;
   color: var(--light-clr);
@@ -158,7 +155,7 @@ img {
 
 .row {
   display: grid;
-  grid-template-columns: repeat(var(--num-of-grid-columns, 1fr));
+  grid-template-columns: repeat(var(--num-of-grid-columns), 1fr);
   gap: 0.2rem;
   padding: var(--section-spacing);
 }
@@ -179,15 +176,15 @@ img {
 
 .hero-description {
   line-height: 3.2rem;
-  margin-top: 2.5rem;
+  margin-top: 2.4rem;
 }
 
 .hero-btn-group .btn-light {
-  margin: 2.5rem 2.5rem 0 0;
+  margin: 2.4rem 2.4rem 0 0;
   display: inline-flex;
 }
 
-.hero-btn-group .btn-light {
+.hero-btn-group .btn-light i {
   align-items: center;
   margin-right: 0.8rem;
 }
@@ -200,17 +197,15 @@ img {
 .btn-dark {
   background-color: var(--dark-clr);
   color: var(--light-clr);
-  margin-top: 2.5rem;
+  margin-top: 2.4rem;
   transition: background-color 0.5s;
 }
 
-/* hero section ends */
-
-/* Collaboration section styles */
+/*----colloboration--*/
 
 .grid-image {
-  margin-top: 2.5rem;
-  grid-gap: span 4;
+  margin-top: 2.4rem;
+  grid-column: span 4;
 }
 
 .text {
@@ -219,7 +214,7 @@ img {
 
 .text-group {
   margin-top: 2rem;
-  grid-gap: span 4;
+  grid-column: span 4;
 }
 
 .secondary-title {
@@ -227,20 +222,18 @@ img {
 }
 
 .text-group p {
-  margin-top: 2.2rem;
+  margin-top: 2rem;
   line-height: 3.2rem;
 }
 
-/* Collabaration section styles ends */
+/*---voice channel---*/
 
-/* The Voice Channel section  */
 .voice-channel {
   background-color: var(--off-white-clr);
 }
 
-/* End of Voice Channel section */
+/*----video call---*/
 
-/* Video call section */
 .video-call {
   background-color: var(--off-white-clr);
 }
@@ -264,9 +257,8 @@ img {
   margin-top: 2.4rem;
 }
 
-/* End of Video call section styles */
+/*---download---*/
 
-/* Download section */
 .download {
   background-color: var(--off-white-clr);
 }
@@ -292,21 +284,20 @@ img {
   transition: background-color 0.5s;
 }
 
-.btn-brand:hover {
-  background: #7983f5;
-}
-
 .btn-brand i {
   margin-right: 0.8rem;
 }
 
 .download .btn-brand {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
-/* End of Download section */
+.btn-brand:hover {
+  background: #7983f5;
+}
 
-/* Footer section */
+/*---footer--*/
+
 .main-footer {
   background-color: var(--dark-clr);
   color: var(--light-clr);
@@ -400,63 +391,49 @@ img {
   line-height: 1.8;
 }
 
-/* End of footer section */
-
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   :root {
     --primary-title-font-size: 5.6rem;
     --secondary-title-font-size: 4.8rem;
     --num-of-grid-columns: 8;
     --section-spacing: 8rem 4rem;
   }
-
   .hero {
     min-height: 62.6rem;
   }
-
   .hero-content-wrap {
     grid-column: span 5;
   }
-
   .hero-description {
     margin: 4rem 0 0.8rem;
   }
-
   .grid-image {
-    margin: 0 auto;
+    margin: auto 0;
   }
-
   .text-group {
     margin-top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-
   .order-1 {
     order: 1;
   }
-
   .order-2 {
     order: 2;
   }
-
   .video-call {
     text-align: center;
   }
-
   .info-box {
     grid-column: span 3;
     grid-row: span 2;
   }
-
   .spacer {
     display: block;
     grid: span 2;
   }
 }
-
-/* Media queries for Desktop */
 
 @media screen and (min-width: 1024px) {
   :root {
@@ -481,7 +458,7 @@ img {
     grid-column: 3 / span 8;
     text-align: center;
   }
-  .mobile-toggle {
+  .mobile-toogle {
     display: none;
   }
   .grid-image {
@@ -501,4 +478,3 @@ img {
     grid-column: 2 / span 10;
   }
 }
-/* End of Media queries for desktop */
