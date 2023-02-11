@@ -25,6 +25,8 @@ A Discord website UI clone created with HTML CSS and JavaScript. It is fully res
 
 ## Live
 
+[Discord UI clone](https://discord-ui-ten.vercel.app/)
+
 <hr/>
 
 ## Preview
