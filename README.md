@@ -2,6 +2,8 @@
 
 A Discord website UI clone created with HTML CSS and JavaScript. It is fully responsive on Every device.
 
+Give a ⭐ to this repository if you like this project❤️
+
 <hr/>
 
 ## Different Sections
